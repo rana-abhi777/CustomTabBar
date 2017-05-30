@@ -12,6 +12,29 @@
 		213812C51EDD8E6A006827FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 213812C31EDD8E6A006827FD /* Main.storyboard */; };
 		213812C71EDD8E6A006827FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 213812C61EDD8E6A006827FD /* Assets.xcassets */; };
 		213812CA1EDD8E6A006827FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 213812C81EDD8E6A006827FD /* LaunchScreen.storyboard */; };
+		213812DC1EDD9B35006827FD /* ESTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213812D51EDD9B35006827FD /* ESTabBar.swift */; };
+		213812DD1EDD9B35006827FD /* ESTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213812D61EDD9B35006827FD /* ESTabBarController.swift */; };
+		213812DE1EDD9B35006827FD /* ESTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213812D71EDD9B35006827FD /* ESTabBarItem.swift */; };
+		213812DF1EDD9B35006827FD /* ESTabBarItemBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213812D81EDD9B35006827FD /* ESTabBarItemBadgeView.swift */; };
+		213812E01EDD9B35006827FD /* ESTabBarItemContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213812D91EDD9B35006827FD /* ESTabBarItemContainer.swift */; };
+		213812E11EDD9B35006827FD /* ESTabBarItemContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213812DA1EDD9B35006827FD /* ESTabBarItemContentView.swift */; };
+		213812E21EDD9B35006827FD /* ESTabBarItemMoreContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213812DB1EDD9B35006827FD /* ESTabBarItemMoreContentView.swift */; };
+		213812E61EDD9DBD006827FD /* ExampleNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213812E51EDD9DBD006827FD /* ExampleNavigationController.swift */; };
+		213812E81EDD9DFE006827FD /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213812E71EDD9DFE006827FD /* ExampleViewController.swift */; };
+		213812F51EDD9F7B006827FD /* ExampleAnimateTipsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213812EE1EDD9F7B006827FD /* ExampleAnimateTipsContentView.swift */; };
+		213812F61EDD9F7B006827FD /* ExampleBackgroundContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213812EF1EDD9F7B006827FD /* ExampleBackgroundContentView.swift */; };
+		213812F71EDD9F7B006827FD /* ExampleBasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213812F01EDD9F7B006827FD /* ExampleBasicContentView.swift */; };
+		213812F91EDD9F7B006827FD /* ExampleHighlightableContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213812F21EDD9F7B006827FD /* ExampleHighlightableContentView.swift */; };
+		213812FA1EDD9F7B006827FD /* ExampleIrregularityContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213812F31EDD9F7B006827FD /* ExampleIrregularityContentView.swift */; };
+		213812FB1EDD9F7B006827FD /* ExampleTipsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213812F41EDD9F7B006827FD /* ExampleTipsContentView.swift */; };
+		213812FD1EDD9FC7006827FD /* ExampleBouncesContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213812FC1EDD9FC7006827FD /* ExampleBouncesContentView.swift */; };
+		213812FF1EDDA0A1006827FD /* ExampleProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213812FE1EDDA0A1006827FD /* ExampleProvider.swift */; };
+		213813011EDDA389006827FD /* Tabs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 213813001EDDA389006827FD /* Tabs.storyboard */; };
+		213813041EDDA488006827FD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213813031EDDA488006827FD /* HomeViewController.swift */; };
+		213813061EDDA497006827FD /* PicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213813051EDDA497006827FD /* PicsViewController.swift */; };
+		213813081EDDA4A6006827FD /* AlertsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213813071EDDA4A6006827FD /* AlertsViewController.swift */; };
+		2138130A1EDDA4B3006827FD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213813091EDDA4B3006827FD /* ProfileViewController.swift */; };
+		BB04108717F8BF08FAC70E79 /* Pods_CustomTabBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BAAD32F090F33C77968551C /* Pods_CustomTabBar.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +45,31 @@
 		213812C61EDD8E6A006827FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		213812C91EDD8E6A006827FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		213812CB1EDD8E6A006827FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		213812D51EDD9B35006827FD /* ESTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBar.swift; sourceTree = "<group>"; };
+		213812D61EDD9B35006827FD /* ESTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarController.swift; sourceTree = "<group>"; };
+		213812D71EDD9B35006827FD /* ESTabBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarItem.swift; sourceTree = "<group>"; };
+		213812D81EDD9B35006827FD /* ESTabBarItemBadgeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarItemBadgeView.swift; sourceTree = "<group>"; };
+		213812D91EDD9B35006827FD /* ESTabBarItemContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarItemContainer.swift; sourceTree = "<group>"; };
+		213812DA1EDD9B35006827FD /* ESTabBarItemContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarItemContentView.swift; sourceTree = "<group>"; };
+		213812DB1EDD9B35006827FD /* ESTabBarItemMoreContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTabBarItemMoreContentView.swift; sourceTree = "<group>"; };
+		213812E51EDD9DBD006827FD /* ExampleNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleNavigationController.swift; sourceTree = "<group>"; };
+		213812E71EDD9DFE006827FD /* ExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
+		213812EE1EDD9F7B006827FD /* ExampleAnimateTipsContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleAnimateTipsContentView.swift; sourceTree = "<group>"; };
+		213812EF1EDD9F7B006827FD /* ExampleBackgroundContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleBackgroundContentView.swift; sourceTree = "<group>"; };
+		213812F01EDD9F7B006827FD /* ExampleBasicContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleBasicContentView.swift; sourceTree = "<group>"; };
+		213812F21EDD9F7B006827FD /* ExampleHighlightableContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleHighlightableContentView.swift; sourceTree = "<group>"; };
+		213812F31EDD9F7B006827FD /* ExampleIrregularityContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleIrregularityContentView.swift; sourceTree = "<group>"; };
+		213812F41EDD9F7B006827FD /* ExampleTipsContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleTipsContentView.swift; sourceTree = "<group>"; };
+		213812FC1EDD9FC7006827FD /* ExampleBouncesContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleBouncesContentView.swift; sourceTree = "<group>"; };
+		213812FE1EDDA0A1006827FD /* ExampleProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleProvider.swift; sourceTree = "<group>"; };
+		213813001EDDA389006827FD /* Tabs.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tabs.storyboard; sourceTree = "<group>"; };
+		213813031EDDA488006827FD /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		213813051EDDA497006827FD /* PicsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicsViewController.swift; sourceTree = "<group>"; };
+		213813071EDDA4A6006827FD /* AlertsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertsViewController.swift; sourceTree = "<group>"; };
+		213813091EDDA4B3006827FD /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		5BAAD32F090F33C77968551C /* Pods_CustomTabBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomTabBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66A74FA039FDC7A5A11BDA57 /* Pods-CustomTabBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomTabBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomTabBar/Pods-CustomTabBar.debug.xcconfig"; sourceTree = "<group>"; };
+		F96CBA742F148491C5ED81A3 /* Pods-CustomTabBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomTabBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomTabBar/Pods-CustomTabBar.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB04108717F8BF08FAC70E79 /* Pods_CustomTabBar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +87,11 @@
 		213812B31EDD8E69006827FD = {
 			isa = PBXGroup;
 			children = (
+				213813001EDDA389006827FD /* Tabs.storyboard */,
 				213812BE1EDD8E6A006827FD /* CustomTabBar */,
 				213812BD1EDD8E6A006827FD /* Products */,
+				F2807862E887A31128285498 /* Pods */,
+				98CE8FE5AB77BDE6CD2CCB9C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +106,12 @@
 		213812BE1EDD8E6A006827FD /* CustomTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				213813021EDDA477006827FD /* Tabs */,
+				213812FE1EDDA0A1006827FD /* ExampleProvider.swift */,
+				213812ED1EDD9F7B006827FD /* Content */,
+				213812E71EDD9DFE006827FD /* ExampleViewController.swift */,
+				213812E51EDD9DBD006827FD /* ExampleNavigationController.swift */,
+				213812D41EDD9B35006827FD /* Sources */,
 				213812BF1EDD8E6A006827FD /* AppDelegate.swift */,
 				213812C11EDD8E6A006827FD /* ViewController.swift */,
 				213812C31EDD8E6A006827FD /* Main.storyboard */,
@@ -64,6 +122,62 @@
 			path = CustomTabBar;
 			sourceTree = "<group>";
 		};
+		213812D41EDD9B35006827FD /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				213812D51EDD9B35006827FD /* ESTabBar.swift */,
+				213812D61EDD9B35006827FD /* ESTabBarController.swift */,
+				213812D71EDD9B35006827FD /* ESTabBarItem.swift */,
+				213812D81EDD9B35006827FD /* ESTabBarItemBadgeView.swift */,
+				213812D91EDD9B35006827FD /* ESTabBarItemContainer.swift */,
+				213812DA1EDD9B35006827FD /* ESTabBarItemContentView.swift */,
+				213812DB1EDD9B35006827FD /* ESTabBarItemMoreContentView.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		213812ED1EDD9F7B006827FD /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				213812FC1EDD9FC7006827FD /* ExampleBouncesContentView.swift */,
+				213812EE1EDD9F7B006827FD /* ExampleAnimateTipsContentView.swift */,
+				213812EF1EDD9F7B006827FD /* ExampleBackgroundContentView.swift */,
+				213812F01EDD9F7B006827FD /* ExampleBasicContentView.swift */,
+				213812F21EDD9F7B006827FD /* ExampleHighlightableContentView.swift */,
+				213812F31EDD9F7B006827FD /* ExampleIrregularityContentView.swift */,
+				213812F41EDD9F7B006827FD /* ExampleTipsContentView.swift */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		213813021EDDA477006827FD /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				213813031EDDA488006827FD /* HomeViewController.swift */,
+				213813051EDDA497006827FD /* PicsViewController.swift */,
+				213813071EDDA4A6006827FD /* AlertsViewController.swift */,
+				213813091EDDA4B3006827FD /* ProfileViewController.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		98CE8FE5AB77BDE6CD2CCB9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BAAD32F090F33C77968551C /* Pods_CustomTabBar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2807862E887A31128285498 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66A74FA039FDC7A5A11BDA57 /* Pods-CustomTabBar.debug.xcconfig */,
+				F96CBA742F148491C5ED81A3 /* Pods-CustomTabBar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +185,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 213812CE1EDD8E6A006827FD /* Build configuration list for PBXNativeTarget "CustomTabBar" */;
 			buildPhases = (
+				EA06EF80C2D9489D0C3C97AC /* [CP] Check Pods Manifest.lock */,
 				213812B81EDD8E6A006827FD /* Sources */,
 				213812B91EDD8E6A006827FD /* Frameworks */,
 				213812BA1EDD8E6A006827FD /* Resources */,
+				64559B5EC90E6F6E68DE5B9A /* [CP] Embed Pods Frameworks */,
+				BAF94DEEFB4A120CEF6A9AFB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				213813011EDDA389006827FD /* Tabs.storyboard in Resources */,
 				213812CA1EDD8E6A006827FD /* LaunchScreen.storyboard in Resources */,
 				213812C71EDD8E6A006827FD /* Assets.xcassets in Resources */,
 				213812C51EDD8E6A006827FD /* Main.storyboard in Resources */,
@@ -131,13 +249,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		64559B5EC90E6F6E68DE5B9A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomTabBar/Pods-CustomTabBar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAF94DEEFB4A120CEF6A9AFB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomTabBar/Pods-CustomTabBar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA06EF80C2D9489D0C3C97AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		213812B81EDD8E6A006827FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				213812FA1EDD9F7B006827FD /* ExampleIrregularityContentView.swift in Sources */,
+				213812FD1EDD9FC7006827FD /* ExampleBouncesContentView.swift in Sources */,
 				213812C21EDD8E6A006827FD /* ViewController.swift in Sources */,
+				213812E11EDD9B35006827FD /* ESTabBarItemContentView.swift in Sources */,
+				213812DE1EDD9B35006827FD /* ESTabBarItem.swift in Sources */,
+				213812E61EDD9DBD006827FD /* ExampleNavigationController.swift in Sources */,
+				213812FB1EDD9F7B006827FD /* ExampleTipsContentView.swift in Sources */,
+				213812E81EDD9DFE006827FD /* ExampleViewController.swift in Sources */,
+				213812F61EDD9F7B006827FD /* ExampleBackgroundContentView.swift in Sources */,
+				213812E01EDD9B35006827FD /* ESTabBarItemContainer.swift in Sources */,
+				213812DC1EDD9B35006827FD /* ESTabBar.swift in Sources */,
+				213813081EDDA4A6006827FD /* AlertsViewController.swift in Sources */,
+				213812DF1EDD9B35006827FD /* ESTabBarItemBadgeView.swift in Sources */,
+				213812FF1EDDA0A1006827FD /* ExampleProvider.swift in Sources */,
+				213813061EDDA497006827FD /* PicsViewController.swift in Sources */,
+				2138130A1EDDA4B3006827FD /* ProfileViewController.swift in Sources */,
 				213812C01EDD8E6A006827FD /* AppDelegate.swift in Sources */,
+				213812F91EDD9F7B006827FD /* ExampleHighlightableContentView.swift in Sources */,
+				213813041EDDA488006827FD /* HomeViewController.swift in Sources */,
+				213812F71EDD9F7B006827FD /* ExampleBasicContentView.swift in Sources */,
+				213812DD1EDD9B35006827FD /* ESTabBarController.swift in Sources */,
+				213812F51EDD9F7B006827FD /* ExampleAnimateTipsContentView.swift in Sources */,
+				213812E21EDD9B35006827FD /* ESTabBarItemMoreContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +443,7 @@
 		};
 		213812CF1EDD8E6A006827FD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66A74FA039FDC7A5A11BDA57 /* Pods-CustomTabBar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CustomTabBar/Info.plist;
@@ -268,6 +456,7 @@
 		};
 		213812D01EDD8E6A006827FD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F96CBA742F148491C5ED81A3 /* Pods-CustomTabBar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CustomTabBar/Info.plist;
@@ -297,6 +486,7 @@
 				213812D01EDD8E6A006827FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
