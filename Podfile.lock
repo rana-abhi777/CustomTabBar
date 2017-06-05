@@ -1,15 +1,18 @@
 PODS:
   - ESTabBarController-swift (2.4)
+  - EZSwiftExtensions (1.9)
   - pop (1.0.9)
 
 DEPENDENCIES:
   - ESTabBarController-swift
+  - EZSwiftExtensions
   - pop (~> 1.0)
 
 SPEC CHECKSUMS:
   ESTabBarController-swift: af496895039ba10ae60bf825473c45f23fc5c8b6
+  EZSwiftExtensions: ce22bf6fc5c6e7c883fec413300b006e123735d0
   pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
 
-PODFILE CHECKSUM: dda2cec211396453c7838b15cc86f77752ac2662
+PODFILE CHECKSUM: 1124600a9837fe206a7a7492c3534e7d2108eb8b
 
 COCOAPODS: 1.2.1

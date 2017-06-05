@@ -18,11 +18,11 @@ enum ExampleProvider {
         let v4 = ExampleViewController()
         let v5 = ExampleViewController()
         
-        v1.tabBarItem = UITabBarItem.init(title: "Home", image: UIImage(named: "home"), selectedImage: UIImage(named: "home_1"))
-        v2.tabBarItem = UITabBarItem.init(title: "Find", image: UIImage(named: "find"), selectedImage: UIImage(named: "find_1"))
-        v3.tabBarItem = UITabBarItem.init(title: "Photo", image: UIImage(named: "photo"), selectedImage: UIImage(named: "photo_1"))
-        v4.tabBarItem = UITabBarItem.init(title: "Favor", image: UIImage(named: "favor"), selectedImage: UIImage(named: "favor_1"))
-        v5.tabBarItem = UITabBarItem.init(title: "Me", image: UIImage(named: "me"), selectedImage: UIImage(named: "me_1"))
+        v1.tabBarItem = UITabBarItem.init(title: "", image: UIImage(named: "home"), selectedImage: UIImage(named: "home_1"))
+        v2.tabBarItem = UITabBarItem.init(title: "", image: UIImage(named: "find"), selectedImage: UIImage(named: "find_1"))
+        v3.tabBarItem = UITabBarItem.init(title: "", image: UIImage(named: "photo"), selectedImage: UIImage(named: "photo_1"))
+        v4.tabBarItem = UITabBarItem.init(title: "", image: UIImage(named: "favor"), selectedImage: UIImage(named: ""))
+        v5.tabBarItem = UITabBarItem.init(title: "", image: UIImage(named: "me"), selectedImage: UIImage(named: "me_1"))
         
         tabBarController.tabBar.shadowImage = nil
             
@@ -379,11 +379,11 @@ enum ExampleProvider {
         let v4 = ExampleViewController()
         let v5 = ExampleViewController()
         
-        v1.tabBarItem = ESTabBarItem.init(title: "Home", image: UIImage(named: "home"), selectedImage: UIImage(named: "home_1"))
-        v2.tabBarItem = ESTabBarItem.init(title: "Find", image: UIImage(named: "find"), selectedImage: UIImage(named: "find_1"))
-        v3.tabBarItem = ESTabBarItem.init(title: "Photo", image: UIImage(named: "photo"), selectedImage: UIImage(named: "photo_1"))
-        v4.tabBarItem = ESTabBarItem.init(title: "Favor", image: UIImage(named: "favor"), selectedImage: UIImage(named: "favor_1"))
-        v5.tabBarItem = ESTabBarItem.init(title: "Me", image: UIImage(named: "me"), selectedImage: UIImage(named: "me_1"))
+        v1.tabBarItem = ESTabBarItem.init(title: "", image: UIImage(named: "home"), selectedImage: UIImage(named: "home_1"))
+        v2.tabBarItem = ESTabBarItem.init(title: "", image: UIImage(named: "find"), selectedImage: UIImage(named: "find_1"))
+        v3.tabBarItem = ESTabBarItem.init(title: "", image: UIImage(named: "photo"), selectedImage: UIImage(named: "photo_1"))
+        v4.tabBarItem = ESTabBarItem.init(title: "", image: UIImage(named: "favor"), selectedImage: UIImage(named: "favor_1"))
+        v5.tabBarItem = ESTabBarItem.init(title: "", image: UIImage(named: "me"), selectedImage: UIImage(named: "me_1"))
         
         if let tabBarItem = v1.tabBarItem as? ESTabBarItem {
             tabBarItem.badgeValue = "New"
@@ -418,23 +418,19 @@ enum ExampleProvider {
         let v2 = storyBoard.instantiateViewController(withIdentifier: "AlertsViewController")
         let v3 = storyBoard.instantiateViewController(withIdentifier: "PicsViewController")
         let v4 = storyBoard.instantiateViewController(withIdentifier: "ProfileViewController")
-//        let v1 = ExampleViewController()
-//        let v2 = ExampleViewController()
-//        let v3 = ExampleViewController()
-//        let v4 = ExampleViewController()
-//        let v5 = ExampleViewController()
+
         
-        v1.tabBarItem = ESTabBarItem.init(ExampleAnimateTipsContentView(), title: nil, image: UIImage(named: "home"), selectedImage: UIImage(named: "home_1"))
-        v2.tabBarItem = ESTabBarItem.init(ExampleAnimateTipsContentView(), title: nil, image: UIImage(named: "find"), selectedImage: UIImage(named: "find_1"))
+        v1.tabBarItem = ESTabBarItem.init(ExampleAnimateTipsContentView(), title: nil, image: UIImage(named: "home_1"), selectedImage: UIImage(named: "home_1"))
+        v2.tabBarItem = ESTabBarItem.init(ExampleAnimateTipsContentView(), title: nil, image: UIImage(named: "find_1"), selectedImage: UIImage(named: "find_1"))
         v3.tabBarItem = ESTabBarItem.init(ExampleAnimateTipsContentView.init(specialWithAutoImplies: implies), title: nil, image: UIImage(named: "photo_big"), selectedImage: UIImage(named: "photo_big_1"))
-        v4.tabBarItem = ESTabBarItem.init(ExampleAnimateTipsContentView(), title: nil, image: UIImage(named: "favor"), selectedImage: UIImage(named: "favor_1"))
+        v4.tabBarItem = ESTabBarItem.init(ExampleAnimateTipsContentView(), title: nil, image: UIImage(named: "favor_1"), selectedImage: UIImage(named: "favor_1"))
 //        v5.tabBarItem = ESTabBarItem.init(ExampleAnimateTipsContentView(), title: nil, image: UIImage(named: "me"), selectedImage: UIImage(named: "me_1"))
         
         tabBarController.viewControllers = [v1, v2, v3, v4/*, v5*/]
         
         if let tabBarItem = v2.tabBarItem as? ESTabBarItem {
             DispatchQueue.main.asyncAfter(deadline: .now() + 2 ) {
-                tabBarItem.badgeValue = "10"
+                tabBarItem.badgeValue = "0"
             }
         }
         

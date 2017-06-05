@@ -7,5 +7,6 @@ target 'CustomTabBar' do
 
   # Pods for CustomTabBar
   pod "ESTabBarController-swift"
+  pod 'EZSwiftExtensions'
   pod 'pop', '~> 1.0'
 end

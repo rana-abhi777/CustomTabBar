@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>EZSwiftExtensions.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-CustomTabBar.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,7 +27,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4DA028855F655A6615DE21F6C261036A</key>
+		<key>04946F5108214A2C451C8D78EAA4C8F2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>09364D07138794106087C58670C7492D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -32,7 +42,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9448F866E41DD5D6780BB0D8696DCBDA</key>
+		<key>DD32DBE61F21AF47C52D713ADCCF4E5F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
